@@ -8,6 +8,6 @@ def line(deli)
   
 end
 
-def now_serving 
+def now_serving(deli) 
   
 end 
