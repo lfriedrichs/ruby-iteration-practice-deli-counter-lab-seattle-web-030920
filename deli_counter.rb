@@ -11,8 +11,9 @@ def line(deli)
     list = ''
     count = 1
     deli.each {|person|
-      list << "#{count}. #{person}"
-    puts "The line is currently: #{list}"
+      list << " #{count}. #{person}"
+      count += 1}
+    puts "The line is currently:#{list}"
   end 
 end
 
