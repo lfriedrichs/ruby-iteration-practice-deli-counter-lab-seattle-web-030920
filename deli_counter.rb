@@ -9,5 +9,5 @@ def line(deli)
 end
 
 def now_serving(deli) 
-  
+  deli[0]
 end 
