@@ -6,7 +6,7 @@ end
 
 def line(deli) 
   if deli.empty? 
-    ""
+    "The line is currently empty."
 end
 
 def now_serving(deli) 
