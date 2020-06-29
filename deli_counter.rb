@@ -6,12 +6,12 @@ end
 
 def line(deli) 
   if deli.empty? 
-    "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
 def now_serving(deli) 
   if deli.empty? 
-"There is nobody waiting to be served!"
-end
+    puts "There is nobody waiting to be served!"
+  end
 end 
