@@ -12,6 +12,6 @@ end
 
 def now_serving(deli) 
   if deli.empty? 
-    "The line is currently empty."
-  end
+"There is nobody waiting to be served!"
+end
 end 
