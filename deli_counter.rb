@@ -7,7 +7,13 @@ end
 def line(deli) 
   if deli.empty? 
     puts "The line is currently empty."
-  end
+  else 
+    list = ''
+    count = 1
+    deli.each {|person|
+      list << "#{count}. #{person}"
+    puts "The line is currently: #{list}"
+  end 
 end
 
 def now_serving(deli) 
