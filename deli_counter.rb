@@ -11,5 +11,7 @@ def line(deli)
 end
 
 def now_serving(deli) 
-  deli[0]
+  if deli.empty? 
+    "The line is currently empty."
+  end
 end 
