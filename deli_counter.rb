@@ -7,3 +7,7 @@ end
 def line 
   
 end
+
+def now_serving 
+  
+end 
